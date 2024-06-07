@@ -47,6 +47,10 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header-container {
+  padding: 24px 0;
+}
+
 .header-navigation {
   display: flex;
   margin-right: 76px;
@@ -79,7 +83,6 @@ img {
 }
 
 .header-menu-item {
-  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -97,7 +100,6 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-address-item {
@@ -128,6 +130,7 @@ img {
 }
 
 .container-hero {
+  max-width: 496px;
 }
 
 .hero-title {
@@ -137,7 +140,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  min-width: 496px;
   margin-bottom: 48px;
 }
 
@@ -173,6 +175,15 @@ img {
 }
 
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .future-title {
@@ -318,6 +329,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
