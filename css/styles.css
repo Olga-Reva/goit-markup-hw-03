@@ -48,7 +48,6 @@ img {
 }
 
 .header-container {
-  padding: 24px 0;
 }
 
 .header-navigation {
@@ -70,6 +69,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-logo-bold {
@@ -91,6 +92,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-address {
@@ -111,6 +114,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-menu-link:hover,
@@ -130,7 +135,9 @@ img {
 }
 
 .container-hero {
-  max-width: 496px;
+  width: 1158px;
+  padding: 0px 15px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -140,6 +147,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0px auto;
   margin-bottom: 48px;
 }
 
@@ -179,11 +188,12 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
   border: 0;
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
+  padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .future-title {
