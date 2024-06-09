@@ -52,12 +52,13 @@ img {
 
 .header-navigation {
   display: flex;
-  margin-right: 76px;
+  margin-right: auto;
   align-items: center;
 }
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -69,7 +70,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  padding: 24px 0;
   display: block;
 }
 
@@ -114,7 +114,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 24px 0;
   display: block;
 }
 
@@ -215,7 +214,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .future-text {
@@ -251,10 +249,6 @@ img {
 }
 
 .team-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
@@ -263,7 +257,6 @@ img {
 }
 
 .team-image {
-  margin-bottom: 32px;
 }
 
 .subtitle {
@@ -286,7 +279,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   background-color: #ffffff;
-  padding-bottom: 32px;
 }
 
 /*--------------------------------------------*/
@@ -315,7 +307,6 @@ img {
   gap: 24px;
   background-color: #ffffff;
   row-gap: 48px;
-  margin-bottom: 8px;
 }
 
 .portfolio-item {
@@ -381,7 +372,6 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  padding-top: 16px;
 }
 
 /*--------------------------------------------*/
